@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/playground/MyShopApp/app/src/main/res/layout/fragment_user_profile.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/circleyellowfil.xml" value="0.2635" />
         <entry key="app/src/main/res/drawable-v24/ic_notifications_white_24dp.xml" value="0.2635" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />

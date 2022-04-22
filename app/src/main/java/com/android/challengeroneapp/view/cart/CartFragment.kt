@@ -8,17 +8,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.android.challengeroneapp.R
 import com.android.challengeroneapp.data.db.entity.CartEntity
-import com.android.challengeroneapp.data.model.ProductResponse
 import com.android.challengeroneapp.view.adapter.CartAdapter
-import com.android.challengeroneapp.view.adapter.ProductListAdapter
 import com.android.challengeroneapp.viewmodel.CartDataViewModel
-import com.android.challengeroneapp.viewmodel.ProductListDataViewModel
-import kotlinx.coroutines.launch
 
 class CartFragment : Fragment() {
 
@@ -47,6 +42,8 @@ class CartFragment : Fragment() {
                 if (it.isNullOrEmpty()) {
                     textView.visibility = View.VISIBLE
                 } else {
+                    textView.visibility = View.GONE
+                    productList.clear()
                     productList.addAll(it)
                     adapter.notifyDataSetChanged()
                 }
