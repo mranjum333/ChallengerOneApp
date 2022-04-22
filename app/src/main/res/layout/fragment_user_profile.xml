@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
         <variable
@@ -124,7 +123,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/proximanovaregular"
-                            android:text="M Anjum"
+                            android:text="@{profile.userName}"
                             android:textColor="#424242"
                             android:textSize="21sp"
                             android:textStyle="bold" />
@@ -286,7 +285,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="20dp"
-                                    android:text="+1 (346) 329-2079"
+                                    android:text="@{profile.phoneNumber}"
                                     android:textSize="15sp"
                                     android:textColor="@color/goodgrey"
                                     android:fontFamily="@font/proximanovaregular" />
@@ -311,7 +310,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="20dp"
                                     android:textColor="@color/goodgrey"
-                                    android:text="md.anjum@gmail.com"
+                                    android:text="@{profile.email}"
                                     android:textSize="15sp"
                                     android:fontFamily="@font/proximanovaregular" />
                             </LinearLayout>
@@ -334,7 +333,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="20dp"
-                                    android:text="Florida, USA"
+                                    android:text="@{profile.city}"
                                     android:textSize="15sp"
                                     android:textColor="@color/goodgrey"
                                     android:fontFamily="@font/proximanovaregular" />
