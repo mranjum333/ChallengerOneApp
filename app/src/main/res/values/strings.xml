@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ChallengerOneApp</string>
+
+    <string name="title_dashboard">Products</string>
+    <string name="title_details">Profile</string>
+    <string name="title_cart">Cart</string>
+
+
+    <string name="product_error_message">There are no Products to show at this moment.\nPlease come back later</string>
+    <string name="cart_message">There are no Products in your Cart.\nGo back to store to add some.</string>
+    <string name="user_profile">In Progress</string>
+
+    <!--Product Strings-->
+    <string name="product_name">Nike Sports - Red</string>
+    <string name="product_description">All terrain Running Shoes</string>
+    <string name="product_amount">$0.0</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="delivery_by_1_april">Delivery by 1 April</string>
+
+
+    <!--Profile-->
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+
+</resources>
